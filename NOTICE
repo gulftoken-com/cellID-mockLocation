@@ -1,0 +1,40 @@
+CellTrajectoryMock — Third-Party Notices
+========================================
+
+This product includes third-party data and uses third-party services as
+described below.
+
+--------------------------------------------------------------------------
+1. Cell-tower database  —  app/src/main/assets/cells.db
+--------------------------------------------------------------------------
+The bundled cell-tower database is compiled from data provided by OpenCellID
+(https://opencellid.org).
+
+OpenCellID data is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+The compiled database file (cells.db) is a derivative work of that data and is
+therefore also distributed under CC BY-SA 4.0. This license applies to the
+data file only — it does NOT apply to the application source code, which is
+proprietary (see the LICENSE file).
+
+Attribution: cell tower data © OpenCellID contributors, CC BY-SA 4.0.
+
+--------------------------------------------------------------------------
+2. Google Geolocation API  —  optional online resolver
+--------------------------------------------------------------------------
+The optional online cell-resolution fallback sends cell identifiers to the
+Google Geolocation API. Use of that API is governed by the Google Maps
+Platform Terms of Service:
+    https://cloud.google.com/maps-platform/terms
+
+No Google data is redistributed in this repository. An API key is required and
+is supplied by the operator at runtime; it is not included here.
+
+--------------------------------------------------------------------------
+3. Build dependencies
+--------------------------------------------------------------------------
+The application is built with AndroidX, Google Android Material Components,
+the Kotlin standard library and Kotlin Coroutines, each under the Apache
+License 2.0, and JUnit 4 (test only) under the Eclipse Public License 1.0.

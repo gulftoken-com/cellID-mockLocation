@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CellTrajectoryMock</string>
+    <string name="subtitle">Offline cell-tower trajectory mock location provider</string>
+    <string name="grant_permissions">1 · Grant permissions</string>
+    <string name="open_dev_options">2 · Open Developer Options (select mock app)</string>
+    <string name="start">3 · Start tracking</string>
+    <string name="stop">Stop tracking</string>
+    <string name="status_idle">Idle</string>
+    <string name="hint_after_permissions">Permissions granted. Now select this app under Developer Options, then Start.</string>
+    <string name="hint_missing_permissions">Some permissions were denied. Tap again to grant the rest.</string>
+    <string name="hint_grant_first">Grant permissions before starting.</string>
+    <string name="api_key_label">Online lookup (optional): paste a Google Geolocation API key to resolve towers missing from the offline database.</string>
+    <string name="api_key_hint">Google Geolocation API key</string>
+    <string name="save_key">Save API key</string>
+    <string name="api_key_saved">API key saved. Restart tracking to apply.</string>
+    <string name="api_key_cleared">API key cleared — offline database only.</string>
+</resources>
